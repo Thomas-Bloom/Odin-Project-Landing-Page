@@ -74,6 +74,13 @@ a {
     padding: 0;
 }
 
+button {
+    padding: 8px 32px;
+    border-radius: 8px;
+    border: 0;
+    font-weight: 600;
+}
+
 .signup-button {
     background-color: #3882F6;
     color: white;
@@ -133,4 +140,40 @@ a {
     align-self: flex-end;
     font-weight: 800;
     font-size: 24px;
+}
+
+.section-four {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 50px 250px;
+    padding: 40px 100px;
+}
+
+.call-to-action-title {
+    color: #F0FAF8;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.call-to-action-subtext {
+    color: #F0FAF8;
+    margin: 0;
+}
+
+.signup-button-inverted {
+    background-color: #3882F6;
+    color: #F0FAF8;
+    border-radius: 8px;
+    border: 2px solid #F0FAF8;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E5E7EB;
+    padding: 20px;
 }
