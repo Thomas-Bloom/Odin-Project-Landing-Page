@@ -10,7 +10,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 200px;
+    padding: 0 5%;
+    flex-wrap: wrap;
 }
 
 .header,
@@ -47,9 +48,12 @@ a {
 
 .section-one {
     display: flex;
-    justify-content: space-between;
-    gap: 100px;
-    padding: 100px 150px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 80px 5%;
+    box-sizing: border-box;
 }
  
 .title {
@@ -128,7 +132,7 @@ button {
     background-color: #E5E7EB;
     justify-content: center;
     align-items: center;
-    padding: 100px 400px;
+    padding: 100px 5%;
 }
 
 .quote-paragraph {
@@ -148,8 +152,12 @@ button {
     justify-content: space-between;
     align-items: center;
     background-color: #3882F6;
-    margin: 50px 250px;
+    margin: 50px auto;
+    width: 90%;
+    max-width: 1000px;
     padding: 40px 100px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
 }
 
 .call-to-action-title {
@@ -169,6 +177,7 @@ button {
     color: #F0FAF8;
     border-radius: 8px;
     border: 2px solid #F0FAF8;
+    margin: 16px 0px;
 }
 
 .footer {
